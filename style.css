@@ -1,0 +1,44 @@
+/* this style keeps the Gulp logo from taking over the whole page. Adjust if needed to size correctly for your page. */
+
+nav img, nav .img-fluid {
+    max-width: 150px;
+  }
+ /* Navbar styles */ 
+ .navbar-custom { 
+    background-color: #082B59;
+     /* Set background color */ 
+     border-bottom: 5px solid #D98555; 
+     /* Set bottom border color */ 
+    } 
+    .navbar-custom .navbar-brand, .navbar-custom .nav-link { 
+        color: #ffffff !important; 
+        /* Set text color */ 
+    } 
+    .navbar-custom .navbar-nav .nav-link.active { 
+        color: #D98555 !important;  
+    }
+    .navbar-custom .nav-link:hover { 
+        color: #D98555; 
+        /* Set hover text color */ 
+    } /* Footer styles */ 
+    .footer-custom { 
+        background-color: #082B59; 
+        /* Set background color */ 
+        color: #ffffff; /* Set text color */ 
+        border-top: 5px solid #D98555; /* Set top border color */ 
+    } 
+    /* Card button styles */ 
+    .card .btn-primary { 
+        background-color: #59331D; 
+        /* Set button background color */ 
+        border-color: #59331D; 
+        /* Set button border color */ 
+    } 
+    .card .btn-primary:hover { 
+        background-color: #ffffff; 
+        /* Set hover background color */ 
+        color: #59331D; 
+        /* Set hover text color */ 
+        border-color: #59331D; 
+        /* Set hover border color */
+    }

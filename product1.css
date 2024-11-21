@@ -1,0 +1,32 @@
+/* this style keeps the Gulp logo from taking over the whole page. Adjust if needed to size correctly for your page. */
+
+nav img, nav .img-fluid {
+    max-width: 150px;
+  }
+ .navbar-custom { 
+    background-color: #082B59; 
+     border-bottom: 5px solid #D98555; 
+    } 
+    .navbar-custom .navbar-brand, .navbar-custom .nav-link { 
+        color: #ffffff !important; 
+    } 
+    .navbar-custom .navbar-nav .nav-link.active { 
+        color: #D98555 !important;  
+    }
+    .navbar-custom .nav-link:hover { 
+        color: #D98555; 
+    } 
+    .footer-custom { 
+        background-color: #082B59; 
+        color: #ffffff;  
+        border-top: 5px solid #D98555;  
+    } 
+    .btn a{ 
+        background-color: #59331D !important;  
+        border-color: #59331D !important; 
+    } 
+    .btn a:hover { 
+        background-color: #ffffff !important; 
+        color: #59331D !important; 
+        border-color: #59331D !important;  
+    }
